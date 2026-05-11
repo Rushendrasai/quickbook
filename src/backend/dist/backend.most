@@ -1,0 +1,21 @@
+// Version: 1.0.0
+type Booking__1057793126 =
+  {
+    date : Text;
+    id : Nat;
+    issue : Text;
+    name : Text;
+    phone : Text;
+    slotTime : Text
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable bookings :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Booking__1057793126]];
+      var elementIndex : Nat__490723111
+    };
+  stable state : {var nextId : Nat}
+};

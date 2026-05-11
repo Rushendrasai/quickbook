@@ -1,0 +1,20 @@
+{
+  "overview": "A service availability calendar for TIGOY.com where clients can browse open time slots and book appointments with John's Plumbing. Providers see a real-time 3-day window of available hours, and bookings are saved instantly.",
+  "features": [
+    "3-day calendar with hourly slots from 9AM to 5PM",
+    "Date navigation to browse forward and backward",
+    "Booking modal with name, phone, and issue description",
+    "Real-time availability — booked slots disappear for all users",
+    "Ad banners at top and bottom",
+    "Navigation menu and sticky footer"
+  ],
+  "category": "productivity",
+  "tags": [
+    "calendar",
+    "booking",
+    "appointments",
+    "availability",
+    "service"
+  ],
+  "last_updated": "2026-05-11T06:44:08.978Z"
+}

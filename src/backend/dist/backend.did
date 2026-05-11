@@ -1,0 +1,15 @@
+type Booking = 
+ record {
+   date: text;
+   id: nat;
+   issue: text;
+   name: text;
+   phone: text;
+   slotTime: text;
+ };
+service : {
+  addBooking: (name: text, phone: text, issue: text, slotTime: text, date:
+   text) -> (nat);
+  getBookedSlots: (date: text) -> (vec text) query;
+  getBookings: () -> (vec Booking) query;
+}
